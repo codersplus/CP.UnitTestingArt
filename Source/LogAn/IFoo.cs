@@ -11,7 +11,7 @@ namespace LogAn
         string Bar();
     }
 
-    public class Foo : IFoo
+    public class Foo : IFoo... build should fail
     {
         public string Bar()
         {
