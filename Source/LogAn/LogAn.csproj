@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\AsyncAwait.cs" />
     <Compile Include="Classes\CodersBuffer.cs" />
     <Compile Include="Classes\FileExtensionManager.cs" />
     <Compile Include="Interfaces\IFileExtensionManager.cs" />

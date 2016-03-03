@@ -1,9 +1,7 @@
 ﻿using LogAn.Classes;
 using LogAn.Interfaces;
-using NSubstitute.Exceptions;
 using NUnit.Framework;
 using NSubstitute;
-using NUnit;
 
 namespace LogAnTests
 {

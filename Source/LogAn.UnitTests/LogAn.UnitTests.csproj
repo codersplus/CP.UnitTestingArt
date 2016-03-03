@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsyncAwaitTests.cs" />
     <Compile Include="LogAnalyzer2Tests.cs" />
     <Compile Include="FileExtensionManagerTests.cs" />
     <Compile Include="LogAnalyzerTests.cs" />
