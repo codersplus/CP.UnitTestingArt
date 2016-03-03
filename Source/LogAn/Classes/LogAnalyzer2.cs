@@ -1,28 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using LogAn.Interfaces;
 
-namespace LogAn
+namespace LogAn.Classes
 {
-    public interface IEmailService
-    {
-        void SendEmail(string to, string subject, string body);
-    }
-    public interface IWebService
-    {
-        void LogError(string message);
-    }
-
-    class WebService : IWebService
-    {
-        public void LogError(string message)
-        {
-            // Log error message;
-        }
-    }
-
     public class LogAnalyzer2
     {
         public LogAnalyzer2(IWebService service, IEmailService email)

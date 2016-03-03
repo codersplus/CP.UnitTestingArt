@@ -48,9 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CodersBuffer.cs" />
-    <Compile Include="ICodersBuffer.cs" />
-    <Compile Include="ICommand.cs" />
     <Compile Include="LogAnalyzer2Tests.cs" />
     <Compile Include="LogAnalyzerTests.cs" />
     <Compile Include="NSubstituteCommand.cs" />

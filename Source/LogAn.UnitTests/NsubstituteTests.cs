@@ -1,8 +1,8 @@
 ﻿using System;
-using LogAn;
+using LogAn.Classes;
+using LogAn.Interfaces;
 using NSubstitute;
 using NUnit.Framework;
-
 
 namespace LogAnTests
 {

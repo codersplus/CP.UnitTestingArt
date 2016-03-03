@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LogAnTests
+namespace LogAn.Interfaces
 {
     public interface ICodersBuffer<T>
     {

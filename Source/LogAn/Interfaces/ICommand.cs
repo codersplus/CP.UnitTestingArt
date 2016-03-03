@@ -1,4 +1,4 @@
-﻿namespace LogAnTests
+﻿namespace LogAn.Interfaces
 {
     public interface ICommand
     {

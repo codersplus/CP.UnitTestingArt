@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using LogAn;
+using LogAn.Classes;
 using NUnit.Framework;
-using NUnit;
 
 namespace LogAnTests
 {
@@ -79,7 +74,7 @@ namespace LogAnTests
         [Category("Fast Tests")]
         public void IsValidLogFileName_EmptyFileName_ThrowsFluent()
         {
-            var ex = Assert.Throws<ArgumentException>(() => _logAnalyzer.IsValidLogFileName((string.Empty)));
+            var ex = Assert.Throws<ArgumentException>(() => _logAnalyzer.IsValidLogFileName(string.Empty));
 
             Assert.That(ex.Message,Does.Contain("file name has to be provided"));
            

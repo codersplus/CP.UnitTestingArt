@@ -1,4 +1,6 @@
-﻿namespace LogAnTests
+﻿using LogAn.Interfaces;
+
+namespace LogAnTests
 {
     public class NSubstituteCommand
     {
