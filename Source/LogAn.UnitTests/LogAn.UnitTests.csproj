@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LogAnalyzer2Tests.cs" />
+    <Compile Include="FileExtensionManagerTests.cs" />
     <Compile Include="LogAnalyzerTests.cs" />
     <Compile Include="NSubstituteCommand.cs" />
     <Compile Include="NsubstituteTests.cs" />

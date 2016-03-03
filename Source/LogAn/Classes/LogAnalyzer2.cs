@@ -12,13 +12,11 @@ namespace LogAn.Classes
         }
         public IWebService Service
         {
-            get;
-            set;
+            get; set;
         }
         public IEmailService Email
         {
-            get;
-            set;
+            get; set;
         }
         public void Analyze(string fileName)
         {

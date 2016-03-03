@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\CodersBuffer.cs" />
+    <Compile Include="Classes\FileExtensionManager.cs" />
+    <Compile Include="Interfaces\IFileExtensionManager.cs" />
     <Compile Include="Interfaces\IEmailService.cs" />
     <Compile Include="Interfaces\IWebService.cs" />
     <Compile Include="Classes\WebService.cs" />
